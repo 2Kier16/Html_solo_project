@@ -59,23 +59,9 @@
         height: 100%;
     }
     
-    .banner-image>.picture>.img_style {
-        height: 100%;
-        width: 50%;
-        background-color: goldenrod;
-        border: solid blanchedalmond;
-        margin-top: 25px;
-        margin-bottom: 25px;
-        margin-left: 25px;
-        margin-right: 25px;
-        background-repeat: no-repeat;
-        padding: 20px 20px;
-        border-radius: 50%;
-    }
-    
     .banner-image>.picture2>.img_style {
         height: 100%;
-        width: 40%;
+        width: 60%;
         background-color: black;
         border: solid blanchedalmond;
         border-radius: 100%;
@@ -90,7 +76,7 @@
         width: 20px;
     }
     
-    .picture {
+    .picture2 {
         display: inline-block;
         animation: 10s rotate infinite linear;
     }
@@ -117,4 +103,13 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
         color: rgb(0, 219, 201);
         letter-spacing: 3px;
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotateX(360deg);
+        }
     }

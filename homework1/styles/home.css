@@ -1,0 +1,115 @@
+   /* My styles */
+   
+   body {
+       margin: 25px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: large;
+       text-align: center;
+       color: rgb(215, 235, 37);
+       background-color: black;
+       background-image: url(https://i.pinimg.com/originals/81/49/e4/8149e474bc9dfcc9953114a630b769f4.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+       box-shadow: 4px -5px 190px 79px rgba(51, 50, 33, 1);
+   }
+   
+   .music-bio {
+       color: rgb(215, 235, 37);
+   }
+   
+   .nav-link {
+       color: goldenrod;
+   }
+   
+   .nav-link>.icon i:hover {
+       color: rgb(0, 219, 201);
+       transition: 0.3s;
+   }
+   
+   .nav-link>.icon2 i:hover {
+       color: rgb(0, 219, 201);
+       transition: 0.3s;
+   }
+   
+   .nav-link>.icon3 i:hover {
+       color: rgb(0, 219, 201);
+       transition: 0.3;
+   }
+   
+   .nav-link>.icon4 i:hover {
+       color: rgb(0, 219, 201);
+       transition: 0.3s;
+   }
+   
+   .navigation-wrapper>.center-column {
+       display: grid;
+       grid-template-columns: 2fr;
+       grid-gap: 50px;
+       width: 600px;
+   }
+   
+   .navigation-wrapper>.center-column>.banner-image {
+       display: flex;
+       justify-content: center;
+   }
+   
+   .navigation-wrapper>.center-column>.banner-image img {
+       width: 216px;
+       height: 100%;
+   }
+   
+   .banner-image>.picture1>.img_style {
+       height: 100%;
+       width: 35%;
+       background-color: black;
+       border: solid blanchedalmond;
+       border-radius: 100%;
+       margin-top: 25px;
+       margin-bottom: 25px;
+       background-repeat: no-repeat;
+       padding: 20px 20px;
+   }
+   
+   .spacer20 {
+       height: 20px;
+       width: 20px;
+   }
+   
+   .picture1 {
+       display: inline-block;
+       animation: 10s rotate infinite linear;
+   }
+   
+   .links-wrapper {
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+   
+   .links-wrapper>.nav-link {
+       width: 50px;
+       text-align: center;
+   }
+   
+   .links-wrapper>.nav-link a {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+       color: goldenrod;
+       text-decoration: underline;
+       transition: 0.5s;
+   }
+   
+   .links-wrapper>.nav-link a:hover {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibre, 'Trebuchet MS', sans-serif;
+       color: rgb(0, 219, 201);
+       letter-spacing: 3px;
+   }
+   
+   @keyframes rotate {
+       from {
+           transform: rotate(0deg);
+       }
+       to {
+           transform: rotateY(360deg);
+       }
+   }
